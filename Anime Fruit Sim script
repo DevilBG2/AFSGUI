@@ -12,7 +12,7 @@ if game.PlaceId == 10446125875 then -- [NEW MOCHI FRUIT] Anime Fruit Simulator
 local DiscordLib = loadstring(game:HttpGet("https://pastebin.com/raw/xcdmdnw0"))()
 local win = DiscordLib:Window("Anime Fruit Simulator")
 
-local serv = win:Server("PNonShopByPFN", "")
+local serv = win:Server("DoingYaMom", "")
 
 
 
@@ -22,7 +22,7 @@ local tgls2 = serv:Channel("BOSS")
 local tgls3 = serv:Channel("Teleports")
 -----------------------------------------------------------------------------
 _G.Click = false
-tgls:Toggle("ClickAFK",true, function(bool)
+tgls:Toggle("ClickAFK",false, function(bool)
    _G.Click = bool
 end)
 local ViSendMouseButtonEvent = game:service'VirtualInputManager'
@@ -41,7 +41,7 @@ ViSendMouseButtonEvent:SendMouseButtonEvent(795, 595, 0, false, game, 1)
 end)
 
 _G.Attack = false
-tgls:Toggle("Attack",true, function(bool)
+tgls:Toggle("Attack",false, function(bool)
   _G.Attack = bool
 end)
 spawn(function()
@@ -57,7 +57,7 @@ game:GetService("ReplicatedStorage").Remotes.Attack:FireServer()
 end)
 
 _G.One = false
-tgls:Toggle("One",true, function(bool)
+tgls:Toggle("One",false, function(bool)
   _G.One = bool
 end)
 spawn(function()
@@ -83,7 +83,7 @@ game:GetService("ReplicatedStorage").Remotes.Validate:FireServer(unpack(args))
 end)
 
 _G.Two = false
-tgls:Toggle("Two",true, function(bool)
+tgls:Toggle("Two",false, function(bool)
   _G.Two = bool
 end)
 spawn(function()
@@ -104,7 +104,7 @@ game:GetService("ReplicatedStorage").Remotes.Validate:FireServer(unpack(args))
 end)
 
 _G.Three = false
-tgls:Toggle("Three",true, function(bool)
+tgls:Toggle("Three",false, function(bool)
   _G.Three = bool
 end)
 spawn(function()
@@ -128,7 +128,7 @@ end)
 
 
 _G.UnlockZone = false
-tgls:Toggle("UnlockZone",true, function(bool)
+tgls:Toggle("UnlockZone",false, function(bool)
   _G.UnlockZone = bool
 end)
 spawn(function()
@@ -422,7 +422,7 @@ tgls1:Seperator()
 
 
 _G.EggZONE16 = false
-tgls1:Toggle("EggZONE16",true, function(bool)
+tgls1:Toggle("EggZONE16",false, function(bool)
   _G.EggZONE16 = bool
 end)
 spawn(function()
