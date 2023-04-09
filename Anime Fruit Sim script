@@ -21,7 +21,7 @@ local tgls1 = serv:Channel("Egg")
 local tgls2 = serv:Channel("BOSS")
 local tgls3 = serv:Channel("Teleports")
 -----------------------------------------------------------------------------
-_G.Click = true
+_G.Click = false
 tgls:Toggle("ClickAFK",true, function(bool)
    _G.Click = bool
 end)
@@ -40,7 +40,7 @@ ViSendMouseButtonEvent:SendMouseButtonEvent(795, 595, 0, false, game, 1)
     end
 end)
 
-_G.Attack = true
+_G.Attack = false
 tgls:Toggle("Attack",true, function(bool)
   _G.Attack = bool
 end)
@@ -56,7 +56,7 @@ game:GetService("ReplicatedStorage").Remotes.Attack:FireServer()
   end
 end)
 
-_G.One = true
+_G.One = false
 tgls:Toggle("One",true, function(bool)
   _G.One = bool
 end)
@@ -82,7 +82,7 @@ game:GetService("ReplicatedStorage").Remotes.Validate:FireServer(unpack(args))
   end
 end)
 
-_G.Two = true
+_G.Two = false
 tgls:Toggle("Two",true, function(bool)
   _G.Two = bool
 end)
@@ -103,7 +103,7 @@ game:GetService("ReplicatedStorage").Remotes.Validate:FireServer(unpack(args))
   end
 end)
 
-_G.Three = true
+_G.Three = false
 tgls:Toggle("Three",true, function(bool)
   _G.Three = bool
 end)
@@ -127,7 +127,7 @@ game:GetService("ReplicatedStorage").Remotes.Validate:FireServer(unpack(args))
 end)
 
 
-_G.UnlockZone = true
+_G.UnlockZone = false
 tgls:Toggle("UnlockZone",true, function(bool)
   _G.UnlockZone = bool
 end)
@@ -421,7 +421,7 @@ end)
 tgls1:Seperator()
 
 
-_G.EggZONE16 = true
+_G.EggZONE16 = false
 tgls1:Toggle("EggZONE16",true, function(bool)
   _G.EggZONE16 = bool
 end)
