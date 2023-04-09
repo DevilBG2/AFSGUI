@@ -955,7 +955,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("Easter", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-236.71, 12.43, -5804.9)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-275.81, 12.68, -5846.56)    
       
   
 end)
