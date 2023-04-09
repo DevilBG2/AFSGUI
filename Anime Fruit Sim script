@@ -947,7 +947,7 @@ end)
 tgls3:Seperator()
 tgls3:Button("Rebirth", function()
     
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3234.533447265625, 13.99802303314209, 5669.9052734375)    
+  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-3487.33, 22.47, 5823.09)    
       
   
 end)
