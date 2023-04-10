@@ -954,14 +954,6 @@ tgls3:Button("Easter", function()
 end)
 
 tgls3:Seperator()
-tgls3:Button("Easy Dungeon", function()
-    
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-275.81, 12.68, -5846.56)    
-      
-  
-end)
-
-tgls3:Seperator()
 tgls3:Button("World2", function()
     
   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(47.553287506103516, 6.424801349639893, -6611.669921875)    
@@ -1006,14 +998,6 @@ tgls3:Seperator()
 tgls3:Button("Zone16", function()
     
   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1653.21337890625, 6.424801349639893, -6733.16015625)    
-      
-  
-end)
-
-tgls3:Seperator()
-tgls3:Button("Medium Dungeon", function()
-    
-  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5634.12, 62.7, -2442.18)    
       
   
 end)
