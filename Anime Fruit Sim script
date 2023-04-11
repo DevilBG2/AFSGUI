@@ -9,7 +9,7 @@ end)
 if game.PlaceId == 10446125875 then -- Anime Fruit Simulator
  
 
-local DiscordLib = loadstring(game:HttpGet("https://pastebin.com/raw/xcdmdnw0"))()
+local DiscordLib = loadstring(game:HttpGet("https://pastebin.com/raw/NgKAamtT"))()
 local win = DiscordLib:Window("Anime Fruit Simulator")
 
 local serv = win:Server("DoingYaMom", "")
